@@ -1,7 +1,7 @@
 # Storage Examples
 
-#esp32-cam 에다가 sd  카드 삽입해서 저장하는 예제입니다.
-#참고로 sd 카드는 sandisk를 사용했습니다.
+esp32-cam 에다가 sd  카드 삽입해서 저장하는 예제입니다.
+참고로 sd 카드는 sandisk를 사용했습니다.
 
 Storage and management of user and system data in module’s flash and on external memory / devices.
 This directory contains a range of examples ESP-IDF projects. These are intended to demonstrate the storage features, and to provide code that you can copy and adapt into your own projects.
