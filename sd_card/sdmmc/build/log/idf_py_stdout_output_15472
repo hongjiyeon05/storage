@@ -1,0 +1,10 @@
+Command: ninja all
+[0/1] Re-running CMake...
+-- Minimal build - ON
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (6.0.0)
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+C:\Users\user\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\Users\user\Desktop\20241283\wificam\esp-idf\examples\storage\sd_card\sdmmc -BC:\Users\user\Desktop\20241283\wificam\esp-idf\examples\storage\sd_card\sdmmc\build

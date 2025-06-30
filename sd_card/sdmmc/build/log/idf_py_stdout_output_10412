@@ -1,0 +1,681 @@
+Command: ninja all
+[0/1] Re-running CMake...
+-- Minimal build - ON
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (6.0.0)
+-- Project sdkconfig file C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/sdkconfig
+Loading defaults file C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/sdkconfig.defaults...
+-- Compiler supported targets: xtensa-esp-elf
+-- USING O3
+-- App "sd_card" version: v6.0-dev-774-g68b583f30c-dirty
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-reent-funcs.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_update bootloader bootloader_support cxx driver efuse esp32-camera esp_app_format esp_bootloader_format esp_common esp_driver_ana_cmpr esp_driver_bitscrambler esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_rmt esp_driver_sd_intf esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_tsens esp_driver_twai esp_driver_uart esp_driver_usb_serial_jtag esp_hw_support esp_mm esp_partition esp_pm esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esptool_py fatfs freertos hal heap log main mbedtls newlib nvs_flash partition_table pthread sdmmc soc spi_flash vfs wear_levelling xtensa
+-- Component paths: C:/Users/user/Desktop/20241283/wificam/esp-idf/components/app_update C:/Users/user/Desktop/20241283/wificam/esp-idf/components/bootloader C:/Users/user/Desktop/20241283/wificam/esp-idf/components/bootloader_support C:/Users/user/Desktop/20241283/wificam/esp-idf/components/cxx C:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver C:/Users/user/Desktop/20241283/wificam/esp-idf/components/efuse C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp32-camera C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_app_format C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_bootloader_format C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_common C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_ana_cmpr C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_bitscrambler C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_dac C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_gpio C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_gptimer C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_i2c C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_i2s C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_ledc C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_mcpwm C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_parlio C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_pcnt C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_rmt C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sd_intf C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdio C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdm C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdmmc C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdspi C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_spi C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_tsens C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_twai C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_uart C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_usb_serial_jtag C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_mm C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_partition C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_pm C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_ringbuf C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_security C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_system C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_timer C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_vfs_console C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esptool_py C:/Users/user/Desktop/20241283/wificam/esp-idf/components/fatfs C:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos C:/Users/user/Desktop/20241283/wificam/esp-idf/components/hal C:/Users/user/Desktop/20241283/wificam/esp-idf/components/heap C:/Users/user/Desktop/20241283/wificam/esp-idf/components/log C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/main C:/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls C:/Users/user/Desktop/20241283/wificam/esp-idf/components/newlib C:/Users/user/Desktop/20241283/wificam/esp-idf/components/nvs_flash C:/Users/user/Desktop/20241283/wificam/esp-idf/components/partition_table C:/Users/user/Desktop/20241283/wificam/esp-idf/components/pthread C:/Users/user/Desktop/20241283/wificam/esp-idf/components/sdmmc C:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc C:/Users/user/Desktop/20241283/wificam/esp-idf/components/spi_flash C:/Users/user/Desktop/20241283/wificam/esp-idf/components/vfs C:/Users/user/Desktop/20241283/wificam/esp-idf/components/wear_levelling C:/Users/user/Desktop/20241283/wificam/esp-idf/components/xtensa
+-- Configuring done (18.1s)
+-- Generating done (1.5s)
+-- Build files have been written to: C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build
+[1/629] Generating C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build/esp-idf/esp_system/ld/memory.ld linker script...
+[2/629] Generating C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build/esp-idf/esp_system/ld/sections.ld.in linker script...
+[3/629] Building C object esp-idf/esp_vfs_console/CMakeFiles/__idf_esp_vfs_console.dir/vfs_console.c.obj
+[4/629] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj
+[5/629] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/nullfs.c.obj
+[6/629] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj
+[7/629] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj
+[8/629] Linking C static library esp-idf\vfs\libvfs.a
+[9/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_platform.cpp.obj
+[10/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition.cpp.obj
+[11/629] Building C object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader.c.obj
+[12/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_lookup.cpp.obj
+[13/629] Building C object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_aes.c.obj
+[14/629] Building C object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_bootloader_xts_aes.c.obj
+[15/629] Linking C static library esp-idf\esp_vfs_console\libesp_vfs_console.a
+[16/629] Building C object esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_wakeup.c.obj
+[17/629] Building C object esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart.c.obj
+[18/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_item_hash_list.cpp.obj
+[19/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_cxx_api.cpp.obj
+[20/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_locked.cpp.obj
+[21/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_pagemanager.cpp.obj
+[22/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_types.cpp.obj
+[23/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_page.cpp.obj
+[24/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_handle_simple.cpp.obj
+[25/629] Building C object esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/src/uart_vfs.c.obj
+[26/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_storage.cpp.obj
+[27/629] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_trace.c.obj
+[28/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_partition_manager.cpp.obj
+[29/629] Building C object esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/ringbuf.c.obj
+[30/629] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj
+[31/629] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_locks.c.obj
+[32/629] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_init.cpp.obj
+[33/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/init.c.obj
+[34/629] Building C object esp-idf/esp_pm/CMakeFiles/__idf_esp_pm.dir/pm_impl.c.obj
+[35/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/abort.c.obj
+[36/629] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj
+[37/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj
+[38/629] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj
+[39/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/assert.c.obj
+[40/629] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj
+[41/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/heap.c.obj
+[42/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/poll.c.obj
+[43/629] Building CXX object esp-idf/cxx/CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
+[44/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/getentropy.c.obj
+[45/629] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_semaphore.c.obj
+[46/629] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_rwlock.c.obj
+[47/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/termios.c.obj
+[48/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/pthread.c.obj
+[49/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/locks.c.obj
+[50/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/random.c.obj
+[51/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/flockfile.c.obj
+[52/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/sysconf.c.obj
+[53/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/realpath.c.obj
+[54/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/scandir.c.obj
+[55/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/reent_init.c.obj
+[56/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/syscalls.c.obj
+[57/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/reent_syscalls.c.obj
+[58/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/stdatomic.c.obj
+[59/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/port/esp_time_impl.c.obj
+[60/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/newlib_init.c.obj
+[61/629] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/src/time.c.obj
+[62/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/heap_idf.c.obj
+[63/629] Building ASM object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/portasm.S.obj
+[64/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/list.c.obj
+[65/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_common.c.obj
+[66/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/port_systick.c.obj
+[67/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj
+[68/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/timers.c.obj
+[69/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/tasks.c.obj
+[70/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/queue.c.obj
+[71/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/event_groups.c.obj
+[72/629] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_encrypted_partition.cpp.obj
+[73/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c.obj
+[74/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/stream_buffer.c.obj
+[75/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/port.c.obj
+[76/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_memory_utils.c.obj
+[77/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/cpu.c.obj
+[78/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cpu_region_protect.c.obj
+[79/629] Linking C static library esp-idf\nvs_flash\libnvs_flash.a
+[80/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c.obj
+[81/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_cpu_intr.c.obj
+[82/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions_event_groups.c.obj
+[83/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/freertos_compatibility.c.obj
+[84/629] Linking C static library esp-idf\esp_driver_uart\libesp_driver_uart.a
+[85/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/revision.c.obj
+[86/629] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/esp_additions/idf_additions.c.obj
+[87/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/hw_random.c.obj
+[88/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_gpio_reserve.c.obj
+[89/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.obj
+[90/629] Linking C static library esp-idf\esp_ringbuf\libesp_ringbuf.a
+[91/629] Linking C static library esp-idf\esp_pm\libesp_pm.a
+[92/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/io_mux.c.obj
+[93/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clk.c.obj
+[94/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
+[95/629] Linking C static library esp-idf\cxx\libcxx.a
+[96/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma/esp_dma_utils.c.obj
+[97/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj
+[98/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/periph_ctrl.c.obj
+[99/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj
+[100/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sar_periph_ctrl_common.c.obj
+[101/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/esp_clk_tree.c.obj
+[102/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/dma/gdma_link.c.obj
+[103/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj
+[104/629] Linking C static library esp-idf\pthread\libpthread.a
+[105/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_usb.c.obj
+[106/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_console.c.obj
+[107/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_bus_lock.c.obj
+[108/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_utils.c.obj
+[109/629] Linking C static library esp-idf\newlib\libnewlib.a
+[110/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp_clk_tree_common.c.obj
+[111/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_wdt.c.obj
+[112/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modem.c.obj
+[113/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/spi_share_hw_ctrl.c.obj
+[114/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mspi_timing_tuning/mspi_timing_tuning.c.obj
+[115/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/adc_share_hw_ctrl.c.obj
+[116/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_event.c.obj
+[117/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_init.c.obj
+[118/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj
+[119/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_wake_stub.c.obj
+[120/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/chip_info.c.obj
+[121/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_sleep.c.obj
+[122/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[123/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/cache_sram_mmu.c.obj
+[124/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/power_supply/brownout.c.obj
+[125/629] Linking C static library esp-idf\freertos\libfreertos.a
+[126/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj
+[127/629] Building C object esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_lock.c.obj
+[128/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_clock_output.c.obj
+[129/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
+[130/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj
+[131/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dport_access.c.obj
+[132/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj
+[133/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/adc_periph.c.obj
+[134/629] Building C object esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/esp_crypto_periph_clk.c.obj
+[135/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/spi_periph.c.obj
+[136/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdm_periph.c.obj
+[137/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/ledc_periph.c.obj
+[138/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/uart_periph.c.obj
+[139/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/gpio_periph.c.obj
+[140/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/emac_periph.c.obj
+[141/629] Building C object esp-idf/esp_security/CMakeFiles/__idf_esp_security.dir/src/init.c.obj
+[142/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/pcnt_periph.c.obj
+[143/629] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/sar_periph_ctrl.c.obj
+[144/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rmt_periph.c.obj
+[145/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/dac_periph.c.obj
+[146/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/timer_periph.c.obj
+[147/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2c_periph.c.obj
+[148/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/i2s_periph.c.obj
+[149/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mpi_periph.c.obj
+[150/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/lcd_periph.c.obj
+[151/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/wdt_periph.c.obj
+[152/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/mcpwm_periph.c.obj
+[153/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/twai_periph.c.obj
+[154/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/rtc_io_periph.c.obj
+[155/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdmmc_periph.c.obj
+[156/629] Building C object esp-idf/soc/CMakeFiles/__idf_soc.dir/esp32/sdio_slave_periph.c.obj
+[157/629] Linking C static library esp-idf\esp_hw_support\libesp_hw_support.a
+[158/629] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/esp32/memory_layout.c.obj
+[159/629] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/tlsf/tlsf.c.obj
+[160/629] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/memory_layout_utils.c.obj
+[161/629] Linking C static library esp-idf\esp_security\libesp_security.a
+[162/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/util.c.obj
+[163/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/buffer/log_buffers.c.obj
+[164/629] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/multi_heap.c.obj
+[165/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_format_text.c.obj
+[166/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_lock.c.obj
+[167/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_timestamp.c.obj
+[168/629] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_init.c.obj
+[169/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_print.c.obj
+[170/629] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_base.c.obj
+[171/629] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps.c.obj
+[172/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/os/log_write.c.obj
+[173/629] Linking C static library esp-idf\soc\libsoc.a
+[174/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/hal_utils.c.obj
+[175/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_timestamp_common.c.obj
+[176/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log.c.obj
+[177/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/log_level.c.obj
+[178/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/cache/log_binary_heap.c.obj
+[179/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/linked_list/log_linked_list.c.obj
+[180/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/os/util.c.obj
+[181/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpu_hal.c.obj
+[182/629] Linking C static library esp-idf\heap\libheap.a
+[183/629] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/src/log_level/tag_log_level/tag_log_level.c.obj
+[184/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/color_hal.c.obj
+[185/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/efuse_hal.c.obj
+[186/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/efuse_hal.c.obj
+[187/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/wdt_hal_iram.c.obj
+[188/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj
+[189/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mmu_hal.c.obj
+[190/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_encrypt_hal_iram.c.obj
+[191/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal.c.obj
+[192/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/uart_hal_iram.c.obj
+[193/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/timer_hal.c.obj
+[194/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj
+[195/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal_iram.c.obj
+[196/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rtc_io_hal.c.obj
+[197/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/gpio_hal.c.obj
+[198/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal.c.obj
+[199/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/ledc_hal_iram.c.obj
+[200/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal.c.obj
+[201/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/clk_tree_hal.c.obj
+[202/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/rmt_hal.c.obj
+[203/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2c_hal_iram.c.obj
+[204/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/pcnt_hal.c.obj
+[205/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdm_hal.c.obj
+[206/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mcpwm_hal.c.obj
+[207/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/brownout_hal.c.obj
+[208/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/i2s_hal.c.obj
+[209/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdmmc_hal.c.obj
+[210/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal_common.c.obj
+[211/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/mpi_hal.c.obj
+[212/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/aes_hal.c.obj
+[213/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sha_hal.c.obj
+[214/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_hal.c.obj
+[215/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.obj
+[216/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.obj
+[217/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal.c.obj
+[218/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_slave_hal_iram.c.obj
+[219/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/touch_sensor_hal.c.obj
+[220/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sens_hal.c.obj
+[221/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/touch_sensor_hal.c.obj
+[222/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/gpio_hal_workaround.c.obj
+[223/629] Linking C static library esp-idf\log\liblog.a
+[224/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal_iram.c.obj
+[225/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdio_slave_hal.c.obj
+[226/629] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_print.c.obj
+[227/629] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_sys.c.obj
+[228/629] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/twai_hal_sja1000.c.obj
+[229/629] Building ASM object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_longjmp.S.obj
+[230/629] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_uart.c.obj
+[231/629] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj
+[232/629] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_gpio.c.obj
+[233/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system_console.c.obj
+[234/629] Building C object esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_spiflash.c.obj
+[235/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_err.c.obj
+[236/629] Linking C static library esp-idf\hal\libhal.a
+[237/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/crosscore_int.c.obj
+[238/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_ipc.c.obj
+[239/629] Linking C static library esp-idf\esp_rom\libesp_rom.a
+[240/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/panic.c.obj
+[241/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/freertos_hooks.c.obj
+[242/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup.c.obj
+[243/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/int_wdt.c.obj
+[244/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/stack_check.c.obj
+[245/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/esp_system.c.obj
+[246/629] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[247/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/ubsan.c.obj
+[248/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/system_time.c.obj
+[249/629] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_handler.S.obj
+[250/629] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_routines.S.obj
+[251/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/esp_ipc_isr_port.c.obj
+[252/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/panic_handler.c.obj
+[253/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj
+[254/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/image_process.c.obj
+[255/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup_funcs.c.obj
+[256/629] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_handler_asm.S.obj
+[257/629] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack_asm.S.obj
+[258/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt.c.obj
+[259/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt_impl_timergroup.c.obj
+[260/629] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers_asm.S.obj
+[261/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_system_chip.c.obj
+[262/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/esp_ipc_isr.c.obj
+[263/629] Building ASM object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/highint_hdl.S.obj
+[264/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/panic_arch.c.obj
+[265/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj
+[266/629] Linking C static library esp-idf\esp_common\libesp_common.a
+[267/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.c.obj
+[268/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj
+[269/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/reset_reason.c.obj
+[270/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack.c.obj
+[271/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_brownout_hook.c.obj
+[272/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/cache_err_int.c.obj
+[273/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_helpers.c.obj
+[274/629] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_init.c.obj
+[275/629] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer.c.obj
+[276/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/system_internal.c.obj
+[277/629] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/clk.c.obj
+[278/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_issi.c.obj
+[279/629] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/system_time.c.obj
+[280/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_drivers.c.obj
+[281/629] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_common.c.obj
+[282/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj
+[283/629] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/ets_timer_legacy.c.obj
+[284/629] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_lac.c.obj
+[285/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_winbond.c.obj
+[286/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj
+[287/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_boya.c.obj
+[288/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic.c.obj
+[289/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_th.c.obj
+[290/629] Linking C static library esp-idf\esp_system\libesp_system.a
+[291/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic_opi.c.obj
+[292/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj
+[293/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
+[294/629] Linking C static library esp-idf\esp_timer\libesp_timer.a
+[295/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_noos.c.obj
+[296/629] Building C object esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio_glitch_filter_ops.c.obj
+[297/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj
+[298/629] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/port/esp32/ext_mem_layout.c.obj
+[299/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj
+[300/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj
+[301/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj
+[302/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj
+[303/629] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/heap_align_hw.c.obj
+[304/629] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/cache_esp32.c.obj
+[305/629] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj
+[306/629] Building C object esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/rtc_io.c.obj
+[307/629] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj
+[308/629] Building C object esp-idf/esp_driver_gpio/CMakeFiles/__idf_esp_driver_gpio.dir/src/gpio.c.obj
+[309/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_mem.c.obj
+[310/629] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache_msync.c.obj
+[311/629] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache_utils.c.obj
+[312/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_clock_init.c.obj
+[313/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random.c.obj
+[314/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_efuse.c.obj
+[315/629] Linking C static library esp-idf\spi_flash\libspi_flash.a
+[316/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[317/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[318/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[319/629] Linking C static library esp-idf\esp_driver_gpio\libesp_driver_gpio.a
+[320/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj
+[321/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[322/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[323/629] Linking C static library esp-idf\esp_mm\libesp_mm.a
+[324/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[325/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[326/629] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj
+[327/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/secure_boot_secure_features.c.obj
+[328/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_sha.c.obj
+[329/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[330/629] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj
+[331/629] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj
+[332/629] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[333/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[334/629] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj
+[335/629] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[336/629] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[337/629] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[338/629] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_app_desc.c.obj
+[339/629] Building C object esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
+[340/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/debug.c.obj
+[341/629] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_startup.c.obj
+[342/629] Building C object esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
+[343/629] Building C object esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj
+[344/629] Linking C static library esp-idf\bootloader_support\libbootloader_support.a
+[345/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_reader.c.obj
+[346/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/mps_trace.c.obj
+[347/629] Building C object esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj
+[348/629] Linking C static library esp-idf\efuse\libefuse.a
+[349/629] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj
+[350/629] Linking C static library esp-idf\esp_partition\libesp_partition.a
+[351/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_keys.c.obj
+[352/629] Linking C static library esp-idf\app_update\libapp_update.a
+[353/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cache.c.obj
+[354/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.obj
+[355/629] Linking C static library esp-idf\esp_bootloader_format\libesp_bootloader_format.a
+[356/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_server.c.obj
+[357/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_cookie.c.obj
+[358/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_client.c.obj
+[359/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_ticket.c.obj
+[360/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_msg.c.obj
+[361/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_debug_helpers_generated.c.obj
+[362/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_client.c.obj
+[363/629] Linking C static library esp-idf\esp_app_format\libesp_app_format.a
+[364/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls.c.obj
+[365/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_client.c.obj
+[366/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls12_server.c.obj
+[367/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/ssl_tls13_generic.c.obj
+[368/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/esp_platform_time.c.obj
+[369/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj
+[370/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj
+[371/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_create.c.obj
+[372/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
+[373/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesce.c.obj
+[374/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509.c.obj
+[375/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crl.c.obj
+[376/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/pkcs7.c.obj
+[377/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_crt.c.obj
+[378/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509_csr.c.obj
+[379/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write.c.obj
+[380/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_crt.c.obj
+[381/629] Linking CXX static library esp-idf\mbedtls\mbedtls\library\libmbedtls.a
+[382/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj
+[383/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj
+[384/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/x509write_csr.c.obj
+[385/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj
+[386/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod.c.obj
+[387/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod_raw.c.obj
+[388/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj
+[389/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/camellia.c.obj
+[390/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj
+[391/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/block_cipher.c.obj
+[392/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chacha20.c.obj
+[393/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_core.c.obj
+[394/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/chachapoly.c.obj
+[395/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ccm.c.obj
+[396/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/des.c.obj
+[397/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/constant_time.c.obj
+[398/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.obj
+[399/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cmac.c.obj
+[400/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/dhm.c.obj
+[401/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecjpake.c.obj
+[402/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdh.c.obj
+[403/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/cipher.c.obj
+[404/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecdsa.c.obj
+[405/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.obj
+[406/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves_new.c.obj
+[407/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.obj
+[408/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ecp.c.obj
+[409/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hkdf.c.obj
+[410/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.obj
+[411/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.obj
+[412/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/entropy.c.obj
+[413/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.obj
+[414/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/nist_kw.c.obj
+[415/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/gcm.c.obj
+[416/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/padlock.c.obj
+[417/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lmots.c.obj
+[418/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md5.c.obj
+[419/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/lms.c.obj
+[420/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/error.c.obj
+[421/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/md.c.obj
+[422/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pem.c.obj
+[423/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/oid.c.obj
+[424/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs12.c.obj
+[425/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_ecc.c.obj
+[426/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/poly1305.c.obj
+[427/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk.c.obj
+[428/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform.c.obj
+[429/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.obj
+[430/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/platform_util.c.obj
+[431/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkcs5.c.obj
+[432/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkparse.c.obj
+[433/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/pkwrite.c.obj
+[434/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_se.c.obj
+[435/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_cipher.c.obj
+[436/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_aead.c.obj
+[437/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto.c.obj
+[438/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_driver_wrappers_no_static.c.obj
+[439/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_client.c.obj
+[440/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_mac.c.obj
+[441/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_hash.c.obj
+[442/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ffdh.c.obj
+[443/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_ecp.c.obj
+[444/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_slot_management.c.obj
+[445/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_pake.c.obj
+[446/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_its_file.c.obj
+[447/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/ripemd160.c.obj
+[448/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_rsa.c.obj
+[449/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa_alt_helpers.c.obj
+[450/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_util.c.obj
+[451/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha3.c.obj
+[452/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/psa_crypto_storage.c.obj
+[453/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha1.c.obj
+[454/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/threading.c.obj
+[455/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha256.c.obj
+[456/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/sha512.c.obj
+[457/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/esp_mem.c.obj
+[458/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/timing.c.obj
+[459/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version_features.c.obj
+[460/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/version.c.obj
+[461/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/esp_hardware.c.obj
+[462/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/rsa.c.obj
+[463/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/aes/esp_aes_xts.c.obj
+[464/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/aes/esp_aes_common.c.obj
+[465/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/esp_timing.c.obj
+[466/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/bignum/bignum_alt.c.obj
+[467/629] Linking CXX static library esp-idf\mbedtls\mbedtls\library\libmbedx509.a
+[468/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
+[469/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha1.c.obj
+[470/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/37a54597df893df2495b8b5915543091/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha512.c.obj
+[471/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/md/esp_md.c.obj
+[472/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/37a54597df893df2495b8b5915543091/esp-idf/components/mbedtls/port/sha/parallel_engine/esp_sha256.c.obj
+[473/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/sha/parallel_engine/sha.c.obj
+[474/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+[475/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/bignum/esp_bignum.c.obj
+[476/629] Building C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/x25519.c.obj
+[477/629] Building C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/Hacl_Curve25519_joined.c.obj
+[478/629] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/C_/Users/user/Desktop/20241283/wificam/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj
+[479/629] Building C object esp-idf/mbedtls/mbedtls/3rdparty/everest/CMakeFiles/everest.dir/library/everest.c.obj
+[480/629] Building C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m/p256-m.c.obj
+[481/629] Building C object esp-idf/mbedtls/mbedtls/3rdparty/p256-m/CMakeFiles/p256m.dir/p256-m_driver_entrypoints.c.obj
+[482/629] Linking CXX static library esp-idf\mbedtls\mbedtls\library\libmbedcrypto.a
+[483/629] Linking CXX static library esp-idf\mbedtls\mbedtls\3rdparty\p256-m\libp256m.a
+[484/629] Linking CXX static library esp-idf\mbedtls\mbedtls\3rdparty\everest\libeverest.a
+[485/629] Building ASM object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr_asm.S.obj
+[486/629] Building ASM object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_context.S.obj
+[487/629] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xt_trax.c.obj
+[488/629] Building ASM object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_vectors.S.obj
+[489/629] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sd_pwr_ctrl/sd_pwr_ctrl.c.obj
+[490/629] Building C object esp-idf/xtensa/CMakeFiles/__idf_xtensa.dir/xtensa_intr.c.obj
+[491/629] Building C object esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src/gpspi/spi_dma.c.obj
+[492/629] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj
+[493/629] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj
+[494/629] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj
+[495/629] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj
+[496/629] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj
+[497/629] Building C object esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj
+[498/629] Building C object esp-idf/mbedtls/CMakeFiles/__idf_mbedtls.dir/esp_crt_bundle/esp_crt_bundle.c.obj
+[499/629] Building C object esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src/gpspi/spi_common.c.obj
+[500/629] Building C object esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src/gpspi/spi_master.c.obj
+[501/629] Linking C static library esp-idf\mbedtls\libmbedtls.a
+[502/629] Building C object esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/src/gpspi/spi_slave.c.obj
+[503/629] Linking C static library esp-idf\xtensa\libxtensa.a
+[504/629] Building C object esp-idf/esp_driver_sd_intf/CMakeFiles/__idf_esp_driver_sd_intf.dir/sd_host.c.obj
+[505/629] Building C object esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_common.c.obj
+[506/629] Building C object esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_platform.c.obj
+[507/629] Building C object esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_pdm.c.obj
+[508/629] Linking C static library esp-idf\sdmmc\libsdmmc.a
+[509/629] Building C object esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/i2s_std.c.obj
+[510/629] Linking C static library esp-idf\esp_driver_spi\libesp_driver_spi.a
+[511/629] Linking C static library esp-idf\esp_driver_i2s\libesp_driver_i2s.a
+[512/629] Linking C static library esp-idf\esp_driver_sd_intf\libesp_driver_sd_intf.a
+[513/629] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer_common.c.obj
+[514/629] Building C object esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/src/gptimer.c.obj
+[515/629] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cmpr.c.obj
+[516/629] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Minimal build - OFF
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 1 dependencies:
+NOTICE: [1/1] idf (6.0.0)
+-- Project sdkconfig file C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script C:/Users/user/Desktop/20241283/wificam/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_security esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: C:/Users/user/Desktop/20241283/wificam/esp-idf/components/bootloader C:/Users/user/Desktop/20241283/wificam/esp-idf/components/bootloader_support C:/Users/user/Desktop/20241283/wificam/esp-idf/components/efuse C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_app_format C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_bootloader_format C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_common C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_security C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_system C:/Users/user/Desktop/20241283/wificam/esp-idf/components/esptool_py C:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos C:/Users/user/Desktop/20241283/wificam/esp-idf/components/hal C:/Users/user/Desktop/20241283/wificam/esp-idf/components/log C:/Users/user/Desktop/20241283/wificam/esp-idf/components/bootloader/subproject/main C:/Users/user/Desktop/20241283/wificam/esp-idf/components/bootloader/subproject/components/micro-ecc C:/Users/user/Desktop/20241283/wificam/esp-idf/components/newlib C:/Users/user/Desktop/20241283/wificam/esp-idf/components/partition_table C:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc C:/Users/user/Desktop/20241283/wificam/esp-idf/components/spi_flash C:/Users/user/Desktop/20241283/wificam/esp-idf/components/xtensa
+-- Configuring done (57.6s)
+-- Generating done (0.9s)
+-- Build files have been written to: C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build/bootloader
+[1/2] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\user\Desktop\20241283\wificam\esp-idf\examples\storage\sd_card\sdmmc\build\bootloader\esp-idf\esptool_py && C:\Users\user\.espressif\python_env\idf6.0_py3.13_env\Scripts\python.exe C:/Users/user/Desktop/20241283/wificam/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[517/629] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_cap.c.obj
+[518/629] Building C object esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/src/pulse_cnt.c.obj
+[519/629] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_com.c.obj
+[520/629] Building C object esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/src/sdspi_crc.c.obj
+[521/629] Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_transaction.c.obj
+[522/629] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_fault.c.obj
+[523/629] Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/legacy/src/sdmmc_host.c.obj
+[524/629] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_oper.c.obj
+[525/629] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_sync.c.obj
+[526/629] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_timer.c.obj
+[527/629] Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_trans_sdmmc.c.obj
+[528/629] Building C object esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/src/mcpwm_gen.c.obj
+[529/629] Building C object esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/src/sd_host_sdmmc.c.obj
+[530/629] Building C object esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/src/sdspi_transaction.c.obj
+[531/629] Building C object esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/src/sdspi_host.c.obj
+[532/629] Building C object esp-idf/esp_driver_dac/CMakeFiles/__idf_esp_driver_dac.dir/dac_oneshot.c.obj
+[533/629] Building C object esp-idf/esp_driver_dac/CMakeFiles/__idf_esp_driver_dac.dir/dac_common.c.obj
+[534/629] Building C object esp-idf/esp_driver_dac/CMakeFiles/__idf_esp_driver_dac.dir/dac_cosine.c.obj
+[535/629] Building C object esp-idf/esp_driver_sdio/CMakeFiles/__idf_esp_driver_sdio.dir/src/sdio_slave.c.obj
+[536/629] Building C object esp-idf/esp_driver_dac/CMakeFiles/__idf_esp_driver_dac.dir/dac_continuous.c.obj
+[537/629] Building C object esp-idf/esp_driver_dac/CMakeFiles/__idf_esp_driver_dac.dir/esp32/dac_dma.c.obj
+[538/629] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_copy.c.obj
+[539/629] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder.c.obj
+[540/629] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_common.c.obj
+[541/629] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_simple.c.obj
+[542/629] Building C object esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/src/sdm.c.obj
+[543/629] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_encoder_bytes.c.obj
+[544/629] Linking C static library esp-idf\esp_driver_pcnt\libesp_driver_pcnt.a
+[545/629] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_rx.c.obj
+[546/629] Linking C static library esp-idf\esp_driver_gptimer\libesp_driver_gptimer.a
+[547/629] Linking C static library esp-idf\esp_driver_sdmmc\libesp_driver_sdmmc.a
+[548/629] Linking C static library esp-idf\esp_driver_sdio\libesp_driver_sdio.a
+[549/629] Linking C static library esp-idf\esp_driver_sdspi\libesp_driver_sdspi.a
+[550/629] Linking C static library esp-idf\esp_driver_mcpwm\libesp_driver_mcpwm.a
+[551/629] Linking C static library esp-idf\esp_driver_dac\libesp_driver_dac.a
+[552/629] Linking C static library esp-idf\esp_driver_sdm\libesp_driver_sdm.a
+[553/629] Building C object esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/src/rmt_tx.c.obj
+[554/629] Linking C static library esp-idf\esp_driver_rmt\libesp_driver_rmt.a
+[555/629] Building C object esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/i2c_common.c.obj
+[556/629] Building C object esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/i2c_master.c.obj
+[557/629] Building C object esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/i2c_slave.c.obj
+[558/629] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/Partition.cpp.obj
+[559/629] Building C object esp-idf/esp_driver_twai/CMakeFiles/__idf_esp_driver_twai.dir/esp_twai.c.obj
+[560/629] Linking C static library esp-idf\esp_driver_i2c\libesp_driver_i2c.a
+[561/629] Building C object esp-idf/esp_driver_ledc/CMakeFiles/__idf_esp_driver_ledc.dir/src/ledc.c.obj
+[562/629] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/sigma_delta_legacy.c.obj
+[563/629] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/crc32.cpp.obj
+[564/629] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/SPI_Flash.cpp.obj
+[565/629] Linking C static library esp-idf\esp_driver_ledc\libesp_driver_ledc.a
+[566/629] Building C object esp-idf/esp_driver_twai/CMakeFiles/__idf_esp_driver_twai.dir/esp_twai_onchip.c.obj
+[567/629] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Perf.cpp.obj
+[568/629] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Ext_Safe.cpp.obj
+[569/629] Linking C static library esp-idf\esp_driver_twai\libesp_driver_twai.a
+[570/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/yuv.c.obj
+[571/629] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/WL_Flash.cpp.obj
+[572/629] Building CXX object esp-idf/wear_levelling/CMakeFiles/__idf_wear_levelling.dir/wear_levelling.cpp.obj
+[573/629] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/touch_sensor_common.c.obj
+[574/629] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/twai/twai.c.obj
+[575/629] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/touch_sensor/esp32/touch_sensor.c.obj
+[576/629] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/rmt_legacy.c.obj
+[577/629] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/deprecated/mcpwm_legacy.c.obj
+[578/629] Building C object esp-idf/driver/CMakeFiles/__idf_driver.dir/i2c/i2c.c.obj
+[579/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/esp_jpg_decode.c.obj
+[580/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/sensor.c.obj
+[581/629] Building CXX object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/jpge.cpp.obj
+[582/629] Linking C static library esp-idf\driver\libdriver.a
+[583/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/to_bmp.c.obj
+[584/629] Building CXX object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/conversions/to_jpg.cpp.obj
+[585/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/esp_camera.c.obj
+[586/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/cam_hal.c.obj
+[587/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov5640.c.obj
+[588/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov2640.c.obj
+[589/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov7670.c.obj
+[590/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov3660.c.obj
+[591/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/gc0308.c.obj
+[592/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/gc032a.c.obj
+[593/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/gc2145.c.obj
+[594/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/ov7725.c.obj
+[595/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/nt99141.c.obj
+[596/629] Linking C static library esp-idf\wear_levelling\libwear_levelling.a
+[597/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/bf20a6.c.obj
+[598/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/bf3005.c.obj
+[599/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio.c.obj
+[600/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_rawflash.c.obj
+[601/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_wl.c.obj
+[602/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ff.c.obj
+[603/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/sc101iot.c.obj
+[604/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/src/ffunicode.c.obj
+[605/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/xclk.c.obj
+[606/629] No install step for 'bootloader'
+[607/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/port/freertos/ffsystem.c.obj
+[608/629] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj 
+ccache C:\Users\user\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v6.0-dev-774-g68b583f30c-dirty\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build/config -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/newlib/platform_include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/config/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/config/include/freertos -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/config/xtensa/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/FreeRTOS-Kernel/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/esp_additions/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/include/soc -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/include/soc/esp32 -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/dma/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/ldo/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/debug_probe/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/power_supply/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/port/esp32/. -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/port/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/heap/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/heap/tlsf -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/log/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/esp32 -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/esp32/register -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/hal/platform_port/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/hal/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/hal/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/include/esp32 -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32 -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_common/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_system/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_system/port/soc -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_system/port/include/private -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/xtensa/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/xtensa/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/xtensa/deprecated_include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp32-camera/driver/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp32-camera/conversions/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/deprecated -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/i2c/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/touch_sensor/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/twai/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/touch_sensor/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_pm/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_ringbuf/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_gpio/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_pcnt/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_gptimer/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_spi/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_mcpwm/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_ana_cmpr/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_i2s/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdmmc/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdmmc/legacy/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sd_intf/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/sdmmc/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdspi/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdio/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_dac/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_rmt/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_tsens/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdm/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_i2c/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_uart/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/vfs/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_ledc/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_parlio/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_usb_serial_jtag/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_twai/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/fatfs/diskio -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/fatfs/src -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/fatfs/vfs -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/wear_levelling/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_partition/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc=. -fmacro-prefix-map=C:/Users/user/Desktop/20241283/wificam/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\app_main.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/app_main.c.obj -c C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/main/app_main.c
+C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/main/app_main.c:1:10: fatal error: nvs_flash.h: No such file or directory
+    1 | #include "nvs_flash.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+[609/629] Completed 'bootloader'
+[610/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/sc031gs.c.obj
+[611/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/diskio/diskio_sdmmc.c.obj
+[612/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/mega_ccm.c.obj
+[613/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/sensors/sc030iot.c.obj
+[614/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/driver/sccb-ng.c.obj
+[615/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_spiflash.c.obj
+[616/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat_sdmmc.c.obj
+[617/629] Building C object esp-idf/fatfs/CMakeFiles/__idf_fatfs.dir/vfs/vfs_fat.c.obj
+[618/629] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/camera_sd_photo.c.obj
+FAILED: esp-idf/main/CMakeFiles/__idf_main.dir/camera_sd_photo.c.obj 
+ccache C:\Users\user\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe -DESP_PLATFORM -DIDF_VER=\"v6.0-dev-774-g68b583f30c-dirty\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -IC:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/build/config -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/newlib/platform_include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/config/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/config/include/freertos -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/config/xtensa/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/FreeRTOS-Kernel/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/freertos/esp_additions/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/include/soc -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/include/soc/esp32 -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/dma/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/ldo/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/debug_probe/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/mspi_timing_tuning/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/mspi_timing_tuning/tuning_scheme_impl/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/power_supply/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/port/esp32/. -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_hw_support/port/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/heap/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/heap/tlsf -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/log/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/esp32 -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/soc/esp32/register -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/hal/platform_port/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/hal/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/hal/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32/include/esp32 -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_rom/esp32 -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_common/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_system/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_system/port/soc -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_system/port/include/private -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/xtensa/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/xtensa/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/xtensa/deprecated_include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp32-camera/driver/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp32-camera/conversions/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/deprecated -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/i2c/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/touch_sensor/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/twai/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/driver/touch_sensor/esp32/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_pm/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_ringbuf/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_gpio/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_pcnt/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_gptimer/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_spi/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_mcpwm/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_ana_cmpr/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_i2s/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdmmc/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdmmc/legacy/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sd_intf/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/sdmmc/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdspi/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdio/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_dac/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_rmt/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_tsens/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_sdm/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_i2c/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_uart/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/vfs/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_ledc/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_parlio/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_usb_serial_jtag/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_driver_twai/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/fatfs/diskio -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/fatfs/src -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/fatfs/vfs -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/wear_levelling/include -IC:/Users/user/Desktop/20241283/wificam/esp-idf/components/esp_partition/include -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -fdiagnostics-color=always -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-error=extra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc=. -fmacro-prefix-map=C:/Users/user/Desktop/20241283/wificam/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/main/CMakeFiles/__idf_main.dir/camera_sd_photo.c.obj -MF esp-idf\main\CMakeFiles\__idf_main.dir\camera_sd_photo.c.obj.d -o esp-idf/main/CMakeFiles/__idf_main.dir/camera_sd_photo.c.obj -c C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/main/camera_sd_photo.c
+C:/Users/user/Desktop/20241283/wificam/esp-idf/examples/storage/sd_card/sdmmc/main/camera_sd_photo.c:8:8: error: unknown type name 'sdmmc_card_t'
+    8 | extern sdmmc_card_t* card;
+      |        ^~~~~~~~~~~~
+[619/629] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/camera_init.c.obj
+[620/629] Building C object esp-idf/esp32-camera/CMakeFiles/__idf_esp32-camera.dir/target/esp32/ll_cam.c.obj
+ninja: build stopped: subcommand failed.
